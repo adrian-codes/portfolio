@@ -1,0 +1,121 @@
+
+
+html {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.body-container {
+    width: 100%;
+    margin: auto;
+    padding-top: 1%;
+}
+
+ header p {
+    font-size: 14px;
+}
+
+.left-content {
+    width: 45%;
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+
+.right-content {
+    width: 45%;
+    display: inline;
+    float: left;
+}
+
+main p, ul{
+    font-size: 12px;
+}
+
+main h4, h5 {
+    text-decoration: underline;
+}
+
+.color-bar {
+    width: 90vw;
+    margin-left: 5%;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-top: 1%;
+    
+}
+
+.table {
+    width: 33%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 20vw;
+}
+
+.header-image {
+    border-radius: 100%;
+    width: 45%;
+}
+
+.table-cell {
+    display: table; 
+    height: vh;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+i{
+    padding-right: 5%;   
+}
+
+@media all and (max-width: 700px) {
+    .left-content, .right-content{
+        float: none;
+    }
+    img{
+        display: none;
+    }
+    .body-container{
+        padding-left: 5%;   
+    }
+    .table {
+        display: inline;
+    }
+    h2 {
+        text-align: left;   
+    }
+    .color-bar {
+        margin-left: 0px;
+}
+    .indent{
+        margin-left: 2%;   
+    }
+}
+
+#about {
+    cursor: pointer;   
+}
+.aboutme {
+    opacity: 0.0;
+    -webkit-transition: 1s;
+}
+
+#about:hover + .aboutme {
+    opacity: 1;
+}
+#camptrek{
+    color: black;
+    cursor: pointer;
+}
+#camptrekDesc{
+    text-align: left;   
+}
+.indent{
+    padding-left: 5%;   
+}
+.links{
+    color: black;   
+}
